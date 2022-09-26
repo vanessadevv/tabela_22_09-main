@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        padding: 4px;
+        font-size: 18px;
+        text-align: center;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid; /*Espessura, tipo e cor*/
+        padding: 5px; /*Preenchimento*/
+        border-collapse: collapse; /*Espaço interno*/
+      }
+      table {
+        width: 100%;
+        height: 80vh;
+      }
+
+      header h1 {
+        font-size: 22px;
+      }
+      header img {
+        width: 100px;
+      }
+      tr {
+        height: 50px;
+      }
+
+      nav a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>EX003 Tabelas</h1>
+      <img src="/images/growdev.png" alt="" />
+    </header>
+
+    <main>
+      <table>
+        <tr>
+          <td colspan="2">Topo</td>
+        </tr>
+
+        <tr style="height: 300px">
+          <td style="width: 30%">
+            <nav>
+              <ul>
+                <li type="none">
+                  <a href="/index.html" style="text-decoration: none">HOME</a>
+                </li>
+
+                <li type="none">
+                  <a href="/ex002.html" style="text-decoration: none">EX002</a>
+                </li>
+
+                <li type="none">
+                  <a href="/ex003.html" style="text-decoration: none">EX003</a>
+                </li>
+
+                <li type="none">
+                  <a href="/ex004.html" style="text-decoration: none">EX004</a>
+                </li>
+              </ul>
+            </nav>
+          </td>
+          <td>Conteudo</td>
+        </tr>
+
+        <tr>
+          <td colspan="3">Rodapé</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

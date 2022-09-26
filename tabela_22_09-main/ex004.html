@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA HARDCORE</title>
+    <style>
+        html {
+        scroll-behavior: smooth;
+      }
+      body {
+        padding: 5px;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid; /*Espessura, tipo e cor*/
+        padding: 5px; /*Preenchimento*/
+        border-collapse: collapse; /*Espaço interno*/
+      }
+      table {
+        width: 30%;
+        margin-left: 540px;
+      }
+
+      header h1 {
+        font-size: 22px;
+      }
+      header img {
+        width: 100px;
+      }
+      tr {
+        height: 20px;
+      }
+
+      nav a {
+        color: red;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <header id="backtotop">
+            <nav>
+              <ul>
+                <li type="none">
+                  <a href="/index.html" style="text-decoration: none">HOME</a>
+                </li>
+      
+                <li type="none">
+                  <a href="/ex002.html" style="text-decoration: none">EX002</a>
+                </li>
+      
+                <li type="none">
+                  <a href="/ex003.html" style="text-decoration: none">EX003</a>
+                </li>
+      
+                <li type="none">
+                  <a href="/ex004.html" style="text-decoration: none">EX004</a>
+                </li>
+              </ul>
+            </nav>
+      
+            <h1>EX004 Tabelas</h1>
+            <img src="/images/growdev.png" alt="" />
+          </header>
+    </header>
+    <main>
+
+        <table  style="width: 200px; height: 200px">
+            
+            <tr>
+                <td colspan="5">1</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="4">2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td rowspan="2">9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td colspan="3">14</td>
+                <td>15</td>
+            </tr>
+        </table>
+
+        <hr>
+        <table style="width: 200px; height: 200px">
+            <thead>
+                <tr>
+                    <td colspan="3">1</td>
+                </tr>
+            </thead>
+            
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+           
+            
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+            
+        </table>
+
+        <hr>
+        <table style="width: 200px; height: 200px">
+            <tr>
+                <td rowspan="3">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <small>
+            <p>
+                Aula Tabelas Growdev <br>
+                <a href="#backtotop">Voltar ao topo</a>
+            </p>
+        </small>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        padding: 5px;
+        font-size: 18px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid; /*Espessura, tipo e cor*/
+        padding: 5px; /*Preenchimento*/
+        border-collapse: collapse; /*Espaço interno*/
+      }
+      table {
+        width: 30%;
+      }
+
+      header h1 {
+        font-size: 22px;
+      }
+      header img {
+        width: 100px;
+      }
+      tr {
+        height: 20px;
+      }
+
+      nav a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="backtotop">
+      <nav>
+        <ul>
+          <li type="none">
+            <a href="/index.html" style="text-decoration: none">HOME</a>
+          </li>
+
+          <li type="none">
+            <a href="/ex002.html" style="text-decoration: none">EX002</a>
+          </li>
+
+          <li type="none">
+            <a href="/ex003.html" style="text-decoration: none">EX003</a>
+          </li>
+
+          <li type="none">
+            <a href="/ex004.html" style="text-decoration: none">EX004</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1>EX002 Tabelas</h1>
+      <img src="/images/growdev.png" alt="" />
+    </header>
+
+    <main>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+
+          <tr style="text-align: center;">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+
+          <tr style="text-align: end;">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+
+        <hr>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td colspan="3" style="text-align: center;">4</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+
+        <hr>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="3" style="text-align: center;">3</td>
+          </tr>
+
+          <tr>
+            <td colspan="2" style="text-align: center;">4</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            
+          </tr>
+        </table>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        padding: 5px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid; /*Espessura, tipo e cor*/
+        padding: 5px; /*Preenchimento*/
+        border-collapse: collapse; /*Espaço interno*/
+        text-align: center;
+      }
+      table {
+        width: 100%;
+      }
+      body {
+        text-align: center;
+      }
+      header img {
+        width: 300px;
+      }
+      tr {
+        height: 50px;
+      }
+
+      nav a {
+        font-size: 20px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="backtotop">
+      <nav>
+        <ul>
+          <li type="none">
+            <a href="/index.html" style="text-decoration: none">HOME</a>
+          </li>
+
+          <li type="none">
+            <a href="/ex002.html" style="text-decoration: none">EX002</a>
+          </li>
+
+          <li type="none">
+            <a href="/ex003.html" style="text-decoration: none">EX003</a>
+          </li>
+
+          <li type="none">
+            <a href="/ex004.html" style="text-decoration: none">EX004</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1>Plano de Estudo</h1>
+      <img src="/images/image-bonita.png" alt="" />
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th><img src="/images/horario.png" alt="" width="40px" /></th>
+            <th>SEGUNDA</th>
+            <th>TERÇA</th>
+            <th>QUARTA</th>
+            <th>QUINTA</th>
+            <th>SEXTA</th>
+            <th>SABADO</th>
+            <th>DOMINGO</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>08:00 - 12:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Descansar</td>
+          </tr>
+
+          <tr>
+            <th>12:00 - 13:00</th>
+            <td colspan="7">ALMOÇAR</td>
+          </tr>
+
+          <tr>
+            <th>13:00 - 15:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="3">Descansar</td>
+          </tr>
+
+          <tr>
+            <th>15:00 - 18:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <th>18:00 - 22:30</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <th>22:30 - 08:00</th>
+            <td colspan="7">DORMIR</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="8">
+              <img src="/images/growdev.png" alt="" />
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <footer>
+        <small>
+          <p>Atividade Tabela Growdev <br>
+            <a href="#backtotop">Back to TOP</a>
+        </p>
+        </small>
+      </footer>
+    </main>
+  </body>
+</html>
